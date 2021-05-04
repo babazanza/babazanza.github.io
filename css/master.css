@@ -28,6 +28,12 @@ h1 {
   margin: 5px;
 }
 
+h2 {
+  font: 30px rakkas, sans-serif;
+  color: #A9714B;
+  text-align: center;
+  margin: 5px;
+}
 a {
   color: #13315C;
 }
