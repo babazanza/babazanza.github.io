@@ -48,6 +48,16 @@ h2 a {
   color: #827E73;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 /* Add a black background color to the top navigation */
 .navbar {
   background-color: #0B2545;
