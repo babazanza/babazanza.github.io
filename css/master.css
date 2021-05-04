@@ -66,6 +66,9 @@ html {
   margin: auto;
   border-radius: 20px;
   padding: 5px;
+  position:sticky;
+  position:-webkit-sticky;
+  top:0px;
 }
 
 /* Style the links inside the navigation bar */
