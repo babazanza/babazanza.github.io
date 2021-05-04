@@ -22,7 +22,7 @@ p {
 }
 
 h1 {
-  font: 50px josefin, sans-serif;
+  font: 50px rakkas, sans-serif;
   color: #212B30;
   text-align: center;
   margin: 5px;
@@ -35,7 +35,12 @@ h2 {
   font-weight: bold;
   margin: 5px;
 }
-
+h3 {
+  font: 25px rakkas, sans-serif;
+  color: #212B30;
+  text-align: center;
+  margin: 5px;
+}
 a {
   color: #13315C;
 }
