@@ -1,0 +1,90 @@
+html {
+  background-color: #E6E7C5;
+  padding: 0px;
+}
+
+body {
+  padding: 10px;
+  margin: 0px;
+}
+
+.content {
+  max-width: 750px;
+  margin: auto;
+}
+
+p {
+  margin: 0px;
+  margin-top: 20px;
+  color: #212B30;
+  font-size: 20px;
+  font-family: josefin, Times;
+}
+
+h1 {
+  font: 50px rakkas, sans-serif;
+  color: #212B30;
+  text-align: center;
+  margin: 5px;
+}
+
+a {
+  color: #13315C;
+}
+
+
+/* Add a black background color to the top navigation */
+.navbar {
+  background-color: #0B2545;
+  overflow: hidden;
+  max-width: 750px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  color: #E6E7C5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 20px;
+  font-family: josefin, Times;
+  height: 20px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #13315C;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #7D8491;
+}
+.navbar img {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+.navbar .img {
+  padding: 0px;
+  background-color: #0B2545 !important;
+}
+
+@font-face {
+  font-family: josefin;
+  src: url("../fonts/josefin.ttf");
+}
+@font-face {
+  font-family: josefin;
+  src: url("../fonts/josefin-itl.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: rakkas;
+  src: url("../fonts/rakkas.ttf");
+}
